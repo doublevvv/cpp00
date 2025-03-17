@@ -6,13 +6,13 @@
 #    By: vlaggoun <vlaggoun@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/03/11 15:43:22 by vlaggoun          #+#    #+#              #
-#    Updated: 2025/03/12 14:25:22 by vlaggoun         ###   ########.fr        #
+#    Updated: 2025/03/17 17:42:51 by vlaggoun         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = 
+NAME = phonebook
 
-SOURCES =
+SOURCES = Contact.class.cpp PhoneBook.class.cpp main.cpp
 
 SRCS = $(SOURCES)
 
@@ -24,8 +24,8 @@ OBJS = $(SRCS:.cpp=.o)
 
 CC = c++
 
-CFLAGS = -Wall -Wextra -Werror -std=c++98 -MMD
-#CFLAGS = -g3
+CFLAGS = -Wall -Wextra -Werror -std=c++98 -MMD -g3
+# CFLAGS = -g3
 
 RM = rm -rf
 
