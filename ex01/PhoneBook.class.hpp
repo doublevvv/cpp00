@@ -6,7 +6,7 @@
 /*   By: vlaggoun <vlaggoun@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/12 14:16:41 by vlaggoun          #+#    #+#             */
-/*   Updated: 2025/03/17 17:33:53 by vlaggoun         ###   ########.fr       */
+/*   Updated: 2025/03/18 16:22:52 by vlaggoun         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,11 +29,12 @@ public:
 
 	void	add_contact(std::string response);
 	void	display(void);
-	void	search(int nbr);
+	void	search(void);
+	std::string	get_point(std::string contact);
 
 private:
 
-	Contact contact[8];
+	Contact _contact[8];
 
 };
 
